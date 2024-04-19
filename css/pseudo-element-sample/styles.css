@@ -1,0 +1,42 @@
+/* h1::after{
+    content: " World";
+    color: aqua;
+}
+
+h1::before{
+    content: "Hi, ";
+} */
+
+/* p::first-letter {
+    font-size: 150%;
+    color: red;
+  }
+  
+  p::first-line {
+    font-weight: bold;
+    font-style: italic;
+  } */
+/* 
+ul {
+  list-style: none; /* Menghilangkan default marker (bullet) */
+/* } */
+
+li::marker {
+  content: "→"; /* Menetapkan marker khusus untuk setiap item daftar */
+  color: blue;
+  font-weight: bold;
+  margin-right: 5px; /* Jarak antara marker dan teks item */
+}
+
+
+ul~p{
+    color: brown;
+}
+
+.hello{
+    color: blue;
+}
+
+#hello{
+    color:sandybrown;
+}

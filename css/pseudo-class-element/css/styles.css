@@ -1,0 +1,24 @@
+.hello{
+    color: orange;
+}
+
+.hello:hover{
+    font-size: 20px;
+    color: green;
+}
+
+.hello:active{
+    color: saddlebrown;
+}
+
+li:nth-child(odd) a{
+    color: aqua;
+}
+
+li:nth-child(even) a:hover{
+    color: green;
+}
+
+p:first-of-type{
+    color: red;
+}

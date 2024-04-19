@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element</title>
+</head>
+<body>
+
+    <div id="box1">
+        <p id="p1">Paragraf 1</p>
+    </div>
+    <script>
+        //menambah element
+        var el = document.createElement('h2');
+        var text = document.createTextNode("Belajar DOM Sekarang");
+        var box = document.getElementById("box1");
+
+        el.appendChild(text);
+        box.appendChild(el);
+
+        //menghapus element
+        // box.removeChild(el);
+
+        //mengupdate element
+        var el2 = document.createElement('h3');
+        var konten = document.createTextNode("Belajar Sekarang!");
+        var p1 = document.getElementById('p1');
+        el2.appendChild(konten);
+
+        box.replaceChild(el2, p1)
+
+    </script>
+</body>
+</html>

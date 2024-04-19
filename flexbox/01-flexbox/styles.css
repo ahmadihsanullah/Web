@@ -1,0 +1,38 @@
+.container{
+    width: 600px;
+    height: 200px;
+    border: 5px solid #eee;
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: column-reverse; */
+    /* justify-content:space-evenly;  main cross - horizontal */ 
+    /* align-items:flex-start;  cross axis - vertical */
+    /* align-content: center; jika sudah lebih 1 baris */
+}
+
+.container div{
+    margin: 2px;
+    background-color: rgb(100, 100, 205);
+    flex: 1;
+}
+
+.container div.dua{
+    flex: 2;
+    align-self: flex-end;
+}
+/* 
+.satu{
+    order: 4;
+}
+
+.dua{
+    order: 3;
+}
+
+.tiga{
+    order: 1;
+}
+
+.dua{
+    order: 1;
+} */

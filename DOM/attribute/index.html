@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <style>
+       .merah{
+            background-color: salmon;
+       }
+    </style>
+</head>
+<body>
+    <h1>Belajar DOM Javascript</h1>
+    <input type="text" value="nama" id="input">
+
+    <script>
+        var input = document.getElementById('input');
+        input.value = "nama lengkap";
+        input.setAttribute("class", "merah")
+    </script>
+</body>
+</html>
